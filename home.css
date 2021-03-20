@@ -1,0 +1,160 @@
+/* tags */
+body{
+    background-color: #344164;
+    color: white;
+}
+h1{
+    color: #FF917B;
+    font-family: 'Lucida Sans Unicode';
+    float: left;
+    margin-left: 100px;
+}
+
+h2{
+    margin-top: -90px;
+    color:#737373;
+    text-align: center;
+    font-family:'Lucida Sans';
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+
+}
+.footer{
+    color: white;
+    background-color:#1e2a4dd0 ;
+    font-family: 'Lucinda Sans Unicode';
+    float: left ;
+    text-align: center;
+    padding: 50px 267px;
+}
+/* classes */
+.article-1{
+    background-color:#FF917B;
+    color: white;
+    font-family: Verdana;
+    float: left;
+    margin-top: 440px;
+    margin-bottom: 10px;
+    margin-right: 245px;
+    margin-left: 100px; 
+    padding: 140px 60px; 
+    font-size: 15px;
+    position: absolute;
+
+}
+.article-2{
+    background-color:#FF917B;
+    color: white;
+    font-family: Verdana;
+    float: right;
+    margin-top: 350px;
+    margin-bottom: 10px;
+    margin-right: 245px;
+    margin-left: -205px; 
+    padding: 173px 60px;
+    position: sticky;
+}
+.article-3{
+    background-color:#FF917B;
+    color: white;
+    font-family: Verdana;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-right: 60px;
+    margin-left: 100px; 
+    padding: 30px 20px;
+}
+
+
+.detalhes{
+    color:#FF917B;
+    float: left;
+    margin-top: 97px;
+    margin-left: -500px;
+    font-size: 17px;
+}
+.descricao{
+    color: white;
+}
+.redesociais{
+    float: right;
+    margin-top: 87px;
+    margin-right:46px ;
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+.periodo{
+    color:#344164;
+    font-size: 10px;
+    font-family:'Lucinda Sans';
+    margin-bottom: -10px;
+}
+.atividades{
+    margin-top: 0px;
+    color:#737373;
+    font-family:'Lucida Sans';
+}
+.hredesocias{
+    color:344164;
+}
+.hrqualificacoes{
+    color:#FF917B;
+}
+
+.fotoSemMouse{
+    float: left;
+    width: 300;
+    height: 320px;
+    transition: 0.4s;
+}
+.fotoComMouse{
+    float: left;
+    width: 340px;
+    height: 362px;
+    transition: 0.4s;
+}
+.articles{
+    position: static;
+}
+
+.claro{
+    background-color: #E6E6FA;
+    color: #344164;
+
+}
+.a-claro{
+    text-decoration: none;
+    color: #344164;
+    margin-left: 5px;
+}
+.redesociais-claro{
+    float: right;
+    margin-top: 87px;
+    margin-right:46px ;
+    margin-left: 25px;
+    color: #344164;
+    text-decoration: none;
+}
+.descricao-claro{
+    color: #344164;
+}
+.footer-claro{
+    color: white;
+    background-color:#1e2a4dd0 ;
+    font-family: 'Lucinda Sans Unicode';
+    float: left ;
+    text-align: center;
+    padding: 50px 267px;
+}
+/* id */
+#escuro{
+    margin-bottom: 10px;
+}
+.hrfooter{
+    color: white;
+}

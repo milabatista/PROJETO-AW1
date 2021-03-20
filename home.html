@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <title>Curriculo</title>
+    <link href="home.css" rel="stylesheet">
+    <meta charset="utf-8"/>
+</head>
+<body>
+  <img src="imagens/female-developer-vector.jpg" width="300" height="320" id="fotoperfil" alt="foto">
+  <h1>CAMILA ROBERTA BATISTA TARIFA</h1>
+  <section class="detalhes">
+  
+    <p><strong>IDADE: </strong></p>
+    <p class="descricao">17 anos (26/06/2003)</p>
+    
+    <p><strong>ENDEREÇO: </strong></p>
+    <p class="descricao">Rua Professor José Soares de Melo - 251 (São Paulo - SP)</p>
+
+  </section>
+  <aside class="redesociais">
+    <section>
+      <img src="imagens/lua.png" id="escuro" width="30">
+      <img src="imagens/sol-250.png" id="claro" width="50">
+    </section>
+  </br>
+    <img src="imagens/linkedin.png" width="50" height="50" alt="linkedin"><a href="https://www.linkedin.com/in/camila-roberta-batista-tarifa-3177311b0/">Camila Batista</a><br>
+    <hr class="hredesocias">
+    <img src="imagens/whatsapp5.png" width="50" height="50" alt="whatsapp">  (11)1234-56789<br>
+    <hr class="hredesocias">
+    <img src="imagens/email3.png" width="50" height="50" alt="email">  mika.tarifa@gmail.com <br>
+  </aside>
+  <div class="articles">
+  <article class="article-1">
+    <h2>Qualificações</h2>
+    <p ><strong>Instituto Federal<br>
+      de Educação, Ciência<br>
+      e Tecnologia de<br>
+      São Paulo<br>
+      - IFSP
+      </strong><br></p>
+    <hr class="hrqualificacoes">
+    <p>Ensino Médio <br>
+    Integrado ao<br>
+    Técnico em Informática<br>
+    Cursando: 3º ano<br></p>
+    <p class="periodo">CURSANDO 2018 – 2021</p>
+  </article>
+  <article class="article-2 ">
+    <h2>Experiência</h2>
+    <p><strong>Assistente de <br>
+      Implantação de Sistemas<br>
+      </strong></p>
+      <hr class="hrqualificacoes">
+      <p>Empresa:<br>
+    RouterLink IT Solutions <br>
+    and Services Ltda. </p>
+    <p class="periodo">Agosto de 2020 - até o momento</p>
+  </article>
+  <article class="article-3">
+    <h2 class="atividades">Atividades Complementares</h2>
+    <hr class="hrqualificacoes">
+    <p><strong>Latin Code Week</strong><br>
+      participação no programa educativo
+      Experiência adquirida sobre ferramentas
+      pessoais e profissionais usando a
+      tecnologia a partir de várias
+      perspectivas.<br></p>
+      <hr class="hrqualificacoes">
+      <p class="periodo">Outubro 2018</p>
+    <br>
+    <p><strong>Projeto escolar</strong><br>
+    Desenvolvimento do jogo “Biotraz RE”<br>
+    (Linguagem C, plataforma: Dev C ++).<br></p>
+    <hr class="hrqualificacoes">
+    <p class="periodo">Novembro 2018</p>
+    <br>
+    <p><strong>Projeto integrador</strong><br>
+    Desenvolvimento do website “LIV•RO” <br>
+    (Linguagens JavaScript, html e css;<br>
+    plataforma VScode; repositório GitHub)<br></p>
+    <hr class="hrqualificacoes">
+    <p class="periodo">2019</p>
+    <br>
+  </article>
+</div>
+  <footer class="footer">
+    <p><strong>Desenvolvido por:</strong> Camila Roberta Batista Tarifa para o projeto escolar da matéria de 'Aplicações para Web 1'</p>
+    <p><strong>Orientador do Projeto:</strong> Wagner de Paula Gomes</p>
+    <hr id="hrfooter">
+    <p>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
+  </footer>
+
+  <script src="jquery/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $("#claro").click(function(){
+        $("body").removeClass("body");
+        $("a").removeClass("a");
+        $("aside").removeClass("redesociais");
+        $("p").removeClass("descricao");
+        $("footer").removeClass("footer");
+        $("body").addClass("claro");
+        $("a").addClass("a-claro");
+        $("aside").addClass("redesociais-claro");
+        $("p").addClass("descricao-claro");
+        $("footer").addClass("footer-claro")
+      })
+      $("#escuro").click(function(){
+        $("body").addClass("body");
+        $("a").addClass("a");
+        $("p").addClass("descricao");
+        $("footer").addClass("footer");
+        $("aside").addClass("redesociais");
+        $("body").removeClass("claro");
+        $("a").removeClass("a-claro");
+        $("aside").removeClass("redesociais-claro");
+        $("p").removeClass("descricao-claro");
+        $("footer").removeClass("footer-claro");
+      })
+    })
+
+    var foto  = document.getElementById("fotoperfil");
+
+    foto.onmouseover = function(){
+      foto.classList.remove("fotoSemMouse");
+      foto.classList.add("fotoComMouse");
+    }
+    foto.onmouseout = function(){
+      foto.classList.add("fotoSemMouse");
+      foto.classList.remove("fotoComMouse");
+    }
+  </script>
+
+</body>
+  
